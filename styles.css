@@ -1,0 +1,82 @@
+body{
+    background: url('Imagenes/fondo.jpg') no-repeat fixed;
+    background-size: cover;
+}
+header{
+    background-color: transparent; /* Ajusta la transparencia según lo desees */
+    color: white; /* Color del texto del header */
+    padding: 50px;
+}
+.title{
+    text-align: justify;
+    font-family: 'Lucida Sans Unicode'; 
+    font-size: xx-large;
+}
+.option{
+    text-align: justify;
+    font-family: 'Lucida Sans Unicode'; 
+    font-size: large;
+}
+.welcome{
+    text-align: center;
+    color: black;
+    font-family: unset
+}
+.second-section {
+    margin-top: 50px; /* o cualquier otro valor que desees */
+}
+.main-section {
+    margin-top: 100px; /* o cualquier otro valor que desees */
+}
+
+/* Seccion de galeria */
+.gallery-item {
+    margin-bottom: 30px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px; 
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la transparencia según lo desees */
+    color: white; /* Color del texto del footer */
+    padding: 20px;
+    margin-top: auto; /* Empujar el footer hacia abajo */
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.socials-icons{
+    width:  4%;
+    height: 4%;
+}
